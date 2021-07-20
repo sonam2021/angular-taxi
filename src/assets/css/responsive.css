@@ -1,0 +1,394 @@
+@media only screen and (max-width: 1204px){
+    .navbar-brand img {
+        width: 110px;
+        margin-right: 10px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 14px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-nav {
+        margin-right: 10px;
+    }
+    .right-content .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #fff;
+    }
+    .wrapper {
+        max-width: 1205px;
+        margin: 0 auto;
+        padding: 0px 30px;
+    }
+    .carousel-item {
+        background-image: url(../img/slider/background-bg.png);
+        height: 490px;
+        display: flex !important;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 1023px){
+    .carousel-item {
+        background-image: url(../img/slider/background-bg.png);
+        height: auto !important;
+        display: flex !important;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .need-content ul li:last-child {
+        width: 480px !important;
+    }
+    .need-content ul li a h5 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px !important;
+        color: #fff;
+    }
+    .mobile-header ul {
+        margin-top: 0;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .mobile-header ul li {
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .wrapper {
+        max-width: 1205px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+    .pb-100px {
+        padding-bottom: 30px;
+    }
+
+    .pt-100px {
+        padding-top: 30px;
+    }
+    .navbar-brand img {
+        width: 100px;
+        margin-right: 0px;
+    }
+    .mobile-header ul li {
+        margin-right: 7px;
+    }
+    .carousel-item a button {
+        border: none;
+        background: #3A4D9A;
+        color: #fff;
+        padding: 7px 30px;
+        border-radius: 20px;
+        z-index: 9999;
+        position: relative;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+    .carousel-item {
+        background-image: url(../img/slider/background-bg.png);
+        height: 430px;
+        display: flex !important;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel-item img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .carousel-item h3 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 40px !important;
+        line-height: 45px !important;
+        margin-bottom: 10px !important;
+        color: #fff !important;
+    }
+    .carousel-item h6 {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+        color: #fff !important;
+        margin-bottom: 10px !important;
+    }
+    .booking-box .nav-tabs .nav-link {
+        background: #FFFFFF;
+        border: 1px solid #3A4D9A;
+        box-sizing: border-box;
+        border-radius: 20px;
+        text-transform: uppercase;
+        margin-right: 5px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        padding: 5px 40px;
+    }
+    .booking-box .tab-content {
+        margin-top: 10px;
+    }
+    .booking-tabs {
+        padding: 20px;
+    }
+    .booking-box header {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 7px 0px;
+    }
+    .booking-box header h3 {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #fff;
+    }
+    .booking-content {
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+    .booking-content h5 {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 25px !important;
+        line-height: 30px !important;
+        color: #FFFFFF !important;
+        margin-bottom: 10px !important;
+    }
+    .booking-content h1 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        color: #FFFFFF !important;
+        margin-bottom: 10px !important;
+    }
+    .booking-content p {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        text-align: justify !important;
+        color: rgba(255, 255, 255, 0.9) !important;
+        margin-bottom: 20px !important;
+    }
+    .heading h1 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        color: #000000 !important;
+        margin-bottom: 0px !important;
+    }
+    .heading p {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        text-align: center !important;
+        color: rgba(0, 0, 0, 0.85) !important;
+        margin-bottom: 0px !important;
+    }
+    .heading {
+        margin-bottom: 30px !important;
+    }
+    .service-box {
+        background: #3A4D9A !important;
+        border-radius: 8px 8px 200px 200px !important;
+        margin-right: 0px !important;
+        padding: 10px !important;
+        text-align: center !important;
+    }
+    .heading1 h1 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        color: #FFFFFF !important;
+    }
+    .heading1 p {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        text-align: center !important;
+        color: rgba(181, 181, 181, 0.85) !important;
+        margin-bottom: 0px !important;
+    }
+    .need-box {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+        margin: 30px 0px auto !important;
+        z-index: 99 !important;
+        position: relative !important;
+    }
+    .need-content {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    .need-content ul li:last-child {
+        width: 210px !important;
+    }
+    .need-more a {
+        background: #3A4D9A !important;
+        color: #fff !important;
+        padding: 7px 30px !important;
+        border-radius: 20px !important;
+        z-index: 9999 !important;
+        position: relative !important;
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 900 !important;
+        font-size: 20px !important;
+        line-height: 28px !important;
+        display: inline-block !important;
+    }
+    .download-bg {
+        background-image: url(../img/download-bg.png) !important;
+        background-size: cover !important;
+        width: 100% !important;
+        position: relative !important;
+        padding-top: 30px !important;
+        background-position: 63% 37% !important;
+    }
+    .download h5 {
+        font-family: Roboto !important;
+        font-style: normal   !important;
+        font-weight: normal  !important;
+        font-size: 25px  !important;
+        line-height: 30px  !important;
+        color: #3A4D9A  !important;
+        margin-bottom: 5px !important;
+    }
+    .download h1 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        color: rgba(0, 0, 0, 0.85);
+         margin-bottom: 5px !important;
+    }
+    .download h1 span {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 35px !important;
+        line-height: 40px !important;
+        color: #3A4D9A !important;
+    }
+    .download p {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        color: #000000 !important;
+    }
+    .download-bg img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .call-bg h3 {
+        font-family: Baskerville !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 22px !important;
+        line-height: 25px !important;
+        color: #FFFFFF !important;
+    }
+    .call-bg h1 {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+    .call-bg {
+        background-color: #3A4D9A !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .footer-bg {
+        background-color: #000000 !important;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .footer-logo img {
+        width: 130px !important;
+        margin-bottom: 20px !important;
+    }
+    .footer-content h3 {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 900 !important;
+        font-size: 18px !important;
+        line-height: 23px !important;
+        color: #4D66CB !important;
+        margin-bottom: 10px !important;
+    }
+    .footer-content p {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 15px !important;
+        line-height: 20px !important;
+        color: #FFFFFF !important;
+        margin-bottom: 10px !important;
+    }
+    .footer-content h6 {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 900 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+        color: #4D66CB !important;
+        margin-bottom: 10px !important;
+    }
+    .mt-50px {
+        margin-top: 0px !important;
+    }
+    .mt-35px {
+        margin-top: 0px !important;
+    }
+    .mobile-header{
+        display: block !important;
+        padding: 10px 15px !important;
+    }
+    .header {
+        position: relative !important;
+        top: 0 !important;
+        z-index: 99 !important;
+        width: 100% !important;
+        background: #020509 !important;
+    }
+    .laptop{
+        display: none !important !important;
+    }
+}

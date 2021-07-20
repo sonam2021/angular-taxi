@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { IndexComponent } from './index/index.component';
 
 const routes: Routes = [
   {
     path:"",
-    loadChildren:() => import('./client/client.module').then(m=>m.ClientModule)
+    component:IndexComponent
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class ClientRoutingModule { }
